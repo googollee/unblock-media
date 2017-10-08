@@ -6,3 +6,6 @@ EXCLUDED_FILES = _locales/backup*
 zip:
 	rm -rf $(ZIP_FILENAME)
 	zip -9 -r $(ZIP_FILENAME) $(INCLUDED_FILES) -x=$(EXCLUDED_FILES)
+
+image:
+	docker build -t uku .

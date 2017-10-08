@@ -263,6 +263,10 @@ if (cluster.isMaster) {
 }
 
 
+process.on('SIGINT', function() {
+    process.exit();
+});
+
 process.on('uncaughtException', function(err) {
     console.error('[ub.uku.js] Caught uncaughtException: ' + err, err.stack);
     process.exit(213);
