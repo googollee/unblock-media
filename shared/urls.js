@@ -90,6 +90,7 @@ unblock_youku.redirect_urls = [
     'http://api.unipay.qq.com/cgi-bin/get_pay_info.fcg?*',
     'https://api.unipay.qq.com/*',
     'http://hot.vrs.sohu.com/*',
+    'https://hot.vrs.sohu.com/*',
     'http://live.tv.sohu.com/live/player*',
     'http://pad.tv.sohu.com/playinfo*',
     'http://my.tv.sohu.com/play/m3u8version.do*',
@@ -116,7 +117,9 @@ unblock_youku.redirect_urls = [
     'http://v.api.hunantv.com/player/video*',
     'http://mobile.api.hunantv.com/v5/video/getSource*',
     'http://v.api.mgtv.com/player/video*',
+    'https://v.api.mgtv.com/*',
     'http://pcweb.api.mgtv.com/player/video*',
+    'https://pcweb.api.mgtv.com/*',
     'http://acc.music.qq.com/base/fcgi-bin/getsession*',
     'http://182.254.116.117/*',
 
@@ -148,7 +151,9 @@ unblock_youku.redirect_urls = [
     'https://info.zb.video.qq.com/*',
     'http://qzs.qq.com/tencentvideo_v1/*',
     'https://qzs.qq.com/*',
+    'http://vd.l.qq.com/*',
     'https://vd.l.qq.com/*',
+    'http://vi.l.qq.com/*',
     'https://vi.l.qq.com/*',
 
     'http://dispatcher.video.sina.com.cn/*',
